@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Deep Tuttle Box",
+    "regex": "deep"
+  },
+  {
+    "name": "Power Box",
+    "regex": "power"
+  },
+  {
+    "name": "Trim Box",
+    "regex": "trim"
+  },
+  {
+    "name": "Tuttle Box",
+    "regex": "tuttle"
+  },
+  {
+    "name": "US Box",
+    "regex": "us"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "B3",
+    "regex": "b3"
+  },
+  {
+    "name": "Black Project",
+    "regex": "black project"
+  },
+  {
+    "name": "Canefire",
+    "regex": "canefire"
+  },
+  {
+    "name": "Choco",
+    "regex": "choco"
+  },
+  {
+    "name": "Debiochet",
+    "regex": "debiochet"
+  },
+  {
+    "name": "Deboichet",
+    "regex": "beboichet"
+  },
+  {
+    "name": "Drake",
+    "regex": "drake"
+  },
+  {
+    "name": "F-Hot",
+    "regex": "hot"
+  },
+  {
+    "name": "Gasoil",
+    "regex": "gasoil"
+  },
+  {
+    "name": "Gregor",
+    "regex": "gregor"
+  },
+  {
+    "name": "Hurricane",
+    "regex": "hurricane"
+  },
+  {
+    "name": "MFC",
+    "regex": "mfc"
+  },
+  {
+    "name": "Makani",
+    "regex": "makani"
+  },
+  {
+    "name": "Maui Ultra",
+    "regex": "maui ultra"
+  },
+  {
+    "name": "Radz",
+    "regex": "radz"
+  },
+  {
+    "name": "Select",
+    "regex": "select"
+  },
+  {
+    "name": "Sonntag",
+    "regex": "sonntag"
+  },
+  {
+    "name": "TFC",
+    "regex": "tfc"
+  },
+  {
+    "name": "Tectonics",
+    "regex": "tectonic"
+  },
+  {
+    "name": "Unifiber",
+    "regex": "unifiber"
+  },
+  {
+    "name": "Z",
+    "regex": "z[ -]?fin"
+  }
+]

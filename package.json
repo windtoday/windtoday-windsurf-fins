@@ -1,0 +1,60 @@
+{
+  "name": "windtoday-sails",
+  "description": "Directory of windsurfing sails",
+  "homepage": "https://github.com/windtoday/windtoday-sails",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": {
+    "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
+    "url": "https://github.com/Kikobeats"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikobeats/windtoday-sails.git"
+  },
+  "bugs": {
+    "url": "https://github.com/windtoday/windtoday-sails/issues"
+  },
+  "keywords": [
+    "directory",
+    "sails",
+    "windsurf",
+    "windtoday"
+  ],
+  "dependencies": {
+    "lodash.find": "~4.6.0",
+    "lodash.get": "~4.4.2",
+    "lodash.mapvalues": "~4.6.0",
+    "lodash.reduce": "~4.6.0",
+    "req-all": "~0.1.0"
+  },
+  "devDependencies": {
+    "git-dirty": "latest",
+    "husky": "latest",
+    "json-future": "latest",
+    "json-is-equal": "latest",
+    "lodash": "latest",
+    "mocha": "latest",
+    "should": "latest",
+    "sort-keys": "latest",
+    "standard": "latest"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "precommit": "node scripts/sort",
+    "test": "node scripts/lint"
+  },
+  "license": "MIT",
+  "standard": {
+    "globals": [
+      "describe",
+      "xdescribe",
+      "xit",
+      "it"
+    ]
+  }
+}
