@@ -1,7 +1,7 @@
 {
-  "name": "windtoday-sails",
-  "description": "Directory of windsurfing sails",
-  "homepage": "https://github.com/windtoday/windtoday-sails",
+  "name": "windtoday-fins",
+  "description": "Directory of windsurfing fins",
+  "homepage": "https://github.com/windtoday/windtoday-fins",
   "version": "0.0.0",
   "main": "index.js",
   "author": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kikobeats/windtoday-sails.git"
+    "url": "git+https://github.com/kikobeats/windtoday-fins.git"
   },
   "bugs": {
-    "url": "https://github.com/windtoday/windtoday-sails/issues"
+    "url": "https://github.com/windtoday/windtoday-fins/issues"
   },
   "keywords": [
     "directory",
-    "sails",
+    "fins",
     "windsurf",
     "windtoday"
   ],
