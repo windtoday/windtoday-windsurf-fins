@@ -2,7 +2,6 @@
 
 var directories = require('req-all')('../lib/dir')
 var jsonFuture = require('json-future')
-var sortKeys = require('sort-keys')
 var lodash = require('lodash')
 var path = require('path')
 

@@ -2,7 +2,6 @@
 
 var directories = require('req-all')('../lib/dir')
 var isEqual = require('json-is-equal')
-var sortKeys = require('sort-keys')
 var format = require('util').format
 var lodash = require('lodash')
 

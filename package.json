@@ -30,14 +30,15 @@
     "req-all": "~0.1.0"
   },
   "devDependencies": {
+    "coveralls": "latest",
     "git-dirty": "latest",
     "husky": "latest",
     "json-future": "latest",
     "json-is-equal": "latest",
     "lodash": "latest",
     "mocha": "latest",
+    "nyc": "latest",
     "should": "latest",
-    "sort-keys": "latest",
     "standard": "latest"
   },
   "engines": {
@@ -45,8 +46,11 @@
   },
   "scripts": {
     "clean": "rm -rf node_modules",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "standard",
     "precommit": "node scripts/sort",
-    "test": "node scripts/lint"
+    "pretest": "npm run lint",
+    "test": "nyc mocha"
   },
   "license": "MIT",
   "standard": {
