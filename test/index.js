@@ -13,16 +13,16 @@ describe('directory', function () {
     })
   })
 
-  it('only detect type', function () {
+  it('only detect box', function () {
     directory('power box').should.be.eql({
-      type: 'Power Box'
+      box: 'Power Box'
     })
   })
 
-  it('detect brand and type', function () {
+  it('detect brand and box', function () {
     directory('mfc power box').should.be.eql({
       brand: 'MFC',
-      type: 'Power Box'
+      box: 'Power Box'
     })
   })
 })
