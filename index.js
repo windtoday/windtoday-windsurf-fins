@@ -1,13 +1,13 @@
 'use strict'
 
-var reduce = require('lodash.reduce')
-var map = require('lodash.mapvalues')
-var createDirectory = require('./lib/create-directory')
-var DIRECTORIES = map(require('req-all')('./lib/dir'), createDirectory)
+const reduce = require('lodash.reduce')
+const map = require('lodash.mapvalues')
+const createDirectory = require('./lib/create-directory')
+const DIRECTORIES = map(require('req-all')('./lib/dir'), createDirectory)
 
 function directory (str, opts) {
   return reduce(DIRECTORIES, function (acc, directoryFn, directory) {
-    var detection = directoryFn(str, opts)
+    const detection = directoryFn(str, opts)
     if (detection) acc[directory] = detection
     return acc
   }, {})
