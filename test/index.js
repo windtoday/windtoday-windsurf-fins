@@ -4,25 +4,25 @@ var directory = require('..')
 
 describe('directory', function () {
   it('nothing to detect', function () {
-    directory('').should.be.eql({})
+    const { data } = directory('')
+    data.should.be.eql({})
   })
 
   it('only detect brand', function () {
-    directory('mfc').should.be.eql({
-      brand: 'MFC'
-    })
+    const { data, output } = directory('mfc')
+    data.should.be.eql({brand: 'MFC'})
+    output.should.be.equal('')
   })
 
   it('only detect box', function () {
-    directory('power box').should.be.eql({
-      box: 'Power Box'
-    })
+    const { data, output } = directory('power box')
+    data.should.be.eql({box: 'Power Box'})
+    output.should.be.equal(' box')
   })
 
   it('detect brand and box', function () {
-    directory('mfc power box').should.be.eql({
-      brand: 'MFC',
-      box: 'Power Box'
-    })
+    const { data, output } = directory('mfc power box')
+    data.should.be.eql({brand: 'MFC', box: 'Power Box'})
+    output.should.be.equal('  box')
   })
 })

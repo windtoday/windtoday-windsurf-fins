@@ -8,11 +8,15 @@ describe('directory » create', function () {
     var brand = createDirectory(require('../lib/dir/brand.json'))
 
     it('prints name under detection', function () {
-      brand('mfc').should.be.equal('MFC')
+      const { data, output } = brand('mfc')
+      data.should.be.equal('MFC')
+      output.should.be.equal('')
     })
 
-    it('null under non detection', function () {
-      should(brand('')).be.undefined()
+    it('undefined under non detection', function () {
+      const { data, output } = brand('foobar')
+      should(data).be.undefined()
+      output.should.be.equal('foobar')
     })
   })
 
@@ -20,11 +24,15 @@ describe('directory » create', function () {
     var type = createDirectory(require('../lib/dir/box.json'))
 
     it('prints name under detection', function () {
-      type('power box').should.be.equal('Power Box')
+      const { data, output } = type('power box')
+      data.should.be.equal('Power Box')
+      output.should.be.equal(' box')
     })
 
-    it('null under non detection', function () {
-      should(type('')).be.undefined()
+    it('undefined under non detection', function () {
+      const { data, output } = type('foobar')
+      should(data).be.undefined()
+      output.should.be.equal('foobar')
     })
   })
 })
