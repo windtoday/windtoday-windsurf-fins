@@ -14,15 +14,15 @@ describe('directory', function () {
     output.should.be.equal('')
   })
 
-  it('only detect box', function () {
+  it('only detect type', function () {
     const { data, output } = directory('power box')
-    data.should.be.eql({box: 'Power Box'})
+    data.should.be.eql({type: 'Power Box'})
     output.should.be.equal(' box')
   })
 
-  it('detect brand and box', function () {
+  it('detect brand and type', function () {
     const { data, output } = directory('mfc power box')
-    data.should.be.eql({brand: 'MFC', box: 'Power Box'})
+    data.should.be.eql({brand: 'MFC', type: 'Power Box'})
     output.should.be.equal('  box')
   })
 })

@@ -21,7 +21,7 @@ describe('directory » create', function () {
   })
 
   describe('type', function () {
-    var type = createDirectory(require('../lib/dir/box.json'))
+    var type = createDirectory(require('../lib/dir/type.json'))
 
     it('prints name under detection', function () {
       const { data, output } = type('power box')
