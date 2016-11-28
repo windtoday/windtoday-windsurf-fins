@@ -45,7 +45,7 @@
   },
   {
     "name": "MFC",
-    "regex": "mfc"
+    "regex": "mfc|maui fin"
   },
   {
     "name": "Makani",
