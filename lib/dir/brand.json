@@ -85,6 +85,6 @@
   },
   {
     "name": "Z",
-    "regex": "z[ -]?fin"
+    "regex": "\\bz\\b"
   }
 ]
