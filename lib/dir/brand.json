@@ -44,6 +44,10 @@
     "regex": "hurricane"
   },
   {
+    "name": "K4",
+    "regex": "k4"
+  },
+  {
     "name": "MFC",
     "regex": "mfc|maui fin"
   },
