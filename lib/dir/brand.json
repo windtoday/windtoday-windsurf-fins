@@ -8,6 +8,10 @@
     "regex": "black project"
   },
   {
+    "name": "C3",
+    "regex": "c3"
+  },
+  {
     "name": "Canefire",
     "regex": "canefire"
   },
