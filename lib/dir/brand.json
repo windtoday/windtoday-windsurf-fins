@@ -24,6 +24,10 @@
     "regex": "drake"
   },
   {
+    "name": "Dynafoil",
+    "regex": "dynafoil"
+  },
+  {
     "name": "F-Hot",
     "regex": "hot"
   },
@@ -42,6 +46,10 @@
   {
     "name": "K4",
     "regex": "k4"
+  },
+  {
+    "name": "Lessacher",
+    "regex": "lessacher"
   },
   {
     "name": "MFC",
