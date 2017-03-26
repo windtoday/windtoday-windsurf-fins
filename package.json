@@ -28,7 +28,7 @@
     "lodash.mapvalues": "~4.6.0",
     "lodash.reduce": "~4.6.0",
     "req-all": "~1.0.0",
-    "str-match": "~2.0.0"
+    "str-match": "~2.1.1"
   },
   "devDependencies": {
     "coveralls": "latest",
