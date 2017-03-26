@@ -1,9 +1,5 @@
 [
   {
-    "name": "B3",
-    "regex": "b3"
-  },
-  {
     "name": "Black Project",
     "regex": "black project"
   },
@@ -64,10 +60,6 @@
     "regex": "maui ultra"
   },
   {
-    "name": "Radz",
-    "regex": "radz"
-  },
-  {
     "name": "Select",
     "regex": "select"
   },
@@ -86,10 +78,6 @@
   {
     "name": "Tribal",
     "regex": "tribal"
-  },
-  {
-    "name": "Unifiber",
-    "regex": "unifiber"
   },
   {
     "name": "Z",
