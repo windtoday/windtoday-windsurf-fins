@@ -20,10 +20,6 @@
     "regex": "choco"
   },
   {
-    "name": "Debiochet",
-    "regex": "debiochet"
-  },
-  {
     "name": "Deboichet",
     "regex": "deboichet"
   },
