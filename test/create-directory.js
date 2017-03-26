@@ -1,11 +1,11 @@
 'use strict'
 
-var createDirectory = require('../lib/create-directory')
-var should = require('should')
+const createDirectory = require('../lib/create-directory')
+const should = require('should')
 
 describe('directory » create', function () {
   describe('brand', function () {
-    var brand = createDirectory(require('../lib/dir/brand.json'))
+    const brand = createDirectory(require('../lib/dir/brand.json'))
 
     it('prints name under detection', function () {
       const { data, output } = brand('mfc')
@@ -21,7 +21,7 @@ describe('directory » create', function () {
   })
 
   describe('type', function () {
-    var type = createDirectory(require('../lib/dir/type.json'))
+    const type = createDirectory(require('../lib/dir/type.json'))
 
     it('prints name under detection', function () {
       const { data, output } = type('power box')
