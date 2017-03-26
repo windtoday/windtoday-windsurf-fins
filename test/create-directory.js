@@ -9,14 +9,14 @@ describe('directory » create', function () {
 
     it('prints name under detection', function () {
       const { data, output } = brand('mfc')
-      data.should.be.equal('MFC')
-      output.should.be.equal('')
+      should(data).be.equal('MFC')
+      should(output).be.equal('')
     })
 
     it('undefined under non detection', function () {
       const { data, output } = brand('foobar')
       should(data).be.undefined()
-      output.should.be.equal('foobar')
+      should(output).be.equal('foobar')
     })
   })
 
@@ -25,14 +25,14 @@ describe('directory » create', function () {
 
     it('prints name under detection', function () {
       const { data, output } = type('power box')
-      data.should.be.equal('Power Box')
-      output.should.be.equal(' box')
+      should(data).be.equal('Power Box')
+      should(output).be.equal(' box')
     })
 
     it('undefined under non detection', function () {
       const { data, output } = type('foobar')
       should(data).be.undefined()
-      output.should.be.equal('foobar')
+      should(output).be.equal('foobar')
     })
   })
 })
