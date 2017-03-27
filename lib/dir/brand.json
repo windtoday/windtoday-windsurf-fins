@@ -1,7 +1,11 @@
 [
   {
+    "name": "BOSS",
+    "regex": "the.?boss"
+  },
+  {
     "name": "Black Project",
-    "regex": "black project"
+    "regex": "black.?project"
   },
   {
     "name": "C3",
@@ -9,7 +13,7 @@
   },
   {
     "name": "Canefire",
-    "regex": "canefire"
+    "regex": "cane.?fire"
   },
   {
     "name": "Choco",
@@ -36,6 +40,10 @@
     "regex": "gasoil"
   },
   {
+    "name": "Gasoil",
+    "regex": "gasoil"
+  },
+  {
     "name": "Gregor",
     "regex": "gregor"
   },
@@ -52,12 +60,12 @@
     "regex": "lessacher"
   },
   {
-    "name": "MFC",
-    "regex": "mfc|maui fin"
+    "name": "MB Fins",
+    "regex": "mb.?fins"
   },
   {
-    "name": "MXR",
-    "regex": "mxr"
+    "name": "MFC",
+    "regex": "mfc|maui.?fin"
   },
   {
     "name": "Makani",
@@ -65,7 +73,7 @@
   },
   {
     "name": "Maui Ultra",
-    "regex": "maui ultra"
+    "regex": "maui.?ultra"
   },
   {
     "name": "Select",
@@ -90,5 +98,17 @@
   {
     "name": "Z",
     "regex": "\\bz\\b"
+  },
+  {
+    "name": "Zulu",
+    "regex": "zulu"
+  },
+  {
+    "name": "iFins",
+    "regex": "ifins"
+  },
+  {
+    "name": "mXr",
+    "regex": "mxr"
   }
 ]
