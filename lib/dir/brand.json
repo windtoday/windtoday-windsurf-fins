@@ -1,114 +1,171 @@
 [
   {
     "name": "BOSS",
-    "regex": "the.?boss"
+    "regex": [
+      "the.?boss"
+    ]
   },
   {
     "name": "Black Project",
-    "regex": "black.?project"
+    "regex": [
+      "black.?project"
+    ]
   },
   {
     "name": "C3",
-    "regex": "c3"
+    "regex": [
+      "c3"
+    ]
   },
   {
     "name": "Canefire",
-    "regex": "cane.?fire"
+    "regex": [
+      "cane.?fire"
+    ]
   },
   {
     "name": "Choco",
-    "regex": "choco"
+    "regex": [
+      "choco"
+    ]
   },
   {
     "name": "Deboichet",
-    "regex": "deboichet"
+    "regex": [
+      "deboichet"
+    ]
   },
   {
     "name": "Drake",
-    "regex": "drake"
+    "regex": [
+      "drake"
+    ]
   },
   {
     "name": "Dynafoil",
-    "regex": "dynafoil"
+    "regex": [
+      "dynafoil"
+    ]
   },
   {
     "name": "F-Hot",
-    "regex": "hot"
+    "regex": [
+      "hot"
+    ]
   },
   {
     "name": "Gasoil",
-    "regex": "gasoil"
+    "regex": [
+      "gasoil"
+    ]
   },
   {
     "name": "Gasoil",
-    "regex": "gasoil"
+    "regex": [
+      "gasoil"
+    ]
   },
   {
     "name": "Gregor",
-    "regex": "gregor"
+    "regex": [
+      "gregor"
+    ]
   },
   {
     "name": "Hurricane",
-    "regex": "hurricane"
+    "regex": [
+      "hurricane"
+    ]
   },
   {
     "name": "K4",
-    "regex": "k4"
+    "regex": [
+      "k4"
+    ]
   },
   {
     "name": "Lessacher",
-    "regex": "lessacher"
+    "regex": [
+      "lessacher"
+    ]
   },
   {
     "name": "MB Fins",
-    "regex": "mb.?fins"
+    "regex": [
+      "mb.?fins"
+    ]
   },
   {
     "name": "MFC",
-    "regex": "mfc|maui.?fin"
+    "regex": [
+      "mfc",
+      "maui.?fin"
+    ]
   },
   {
     "name": "Makani",
-    "regex": "makani"
+    "regex": [
+      "makani"
+    ]
   },
   {
     "name": "Maui Ultra",
-    "regex": "maui.?ultra"
+    "regex": [
+      "maui.?ultra"
+    ]
   },
   {
     "name": "Select",
-    "regex": "select"
+    "regex": [
+      "select"
+    ]
   },
   {
     "name": "Sonntag",
-    "regex": "sonntag"
+    "regex": [
+      "sonntag"
+    ]
   },
   {
     "name": "TFC",
-    "regex": "tfc"
+    "regex": [
+      "tfc"
+    ]
   },
   {
     "name": "Tectonics",
-    "regex": "tectonic"
+    "regex": [
+      "tectonic"
+    ]
   },
   {
     "name": "Tribal",
-    "regex": "tribal"
+    "regex": [
+      "tribal"
+    ]
   },
   {
     "name": "Z",
-    "regex": "z"
+    "regex": [
+      "z"
+    ]
   },
   {
     "name": "Zulu",
-    "regex": "zulu"
+    "regex": [
+      "zulu"
+    ]
   },
   {
     "name": "iFins",
-    "regex": "ifins"
+    "regex": [
+      "ifins"
+    ]
   },
   {
     "name": "mXr",
-    "regex": "mxr"
+    "regex": [
+      "mxr"
+    ]
   }
 ]

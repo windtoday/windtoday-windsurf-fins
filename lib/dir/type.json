@@ -1,22 +1,32 @@
 [
   {
     "name": "Deep Tuttle Box",
-    "regex": "deep"
+    "regex": [
+      "deep"
+    ]
   },
   {
     "name": "Power Box",
-    "regex": "power"
+    "regex": [
+      "power"
+    ]
   },
   {
     "name": "Trim Box",
-    "regex": "trim"
+    "regex": [
+      "trim"
+    ]
   },
   {
     "name": "Tuttle Box",
-    "regex": "tuttle"
+    "regex": [
+      "tuttle"
+    ]
   },
   {
     "name": "US Box",
-    "regex": "us"
+    "regex": [
+      "us"
+    ]
   }
 ]
