@@ -2,7 +2,7 @@
   {
     "name": "BOSS",
     "regex": [
-      "the.?boss"
+      "(?:the.?)?boss"
     ]
   },
   {
@@ -50,13 +50,7 @@
   {
     "name": "F-Hot",
     "regex": [
-      "hot"
-    ]
-  },
-  {
-    "name": "Gasoil",
-    "regex": [
-      "gasoil"
+      "(?:f.)?hot"
     ]
   },
   {
@@ -99,7 +93,7 @@
     "name": "MFC",
     "regex": [
       "mfc",
-      "maui.?fin"
+      "maui.?fins?"
     ]
   },
   {
@@ -135,7 +129,7 @@
   {
     "name": "Tectonics",
     "regex": [
-      "tectonic"
+      "tectonics"
     ]
   },
   {
