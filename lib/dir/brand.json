@@ -97,7 +97,7 @@
   },
   {
     "name": "Z",
-    "regex": "\\bz\\b"
+    "regex": "z"
   },
   {
     "name": "Zulu",
