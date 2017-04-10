@@ -24,7 +24,7 @@ describe('directory', function () {
     const result = directory('power box')
     should(result).be.eql({
       data: { type: 'Power Box' },
-      output: ' box'
+      output: ''
     })
   })
 
@@ -32,7 +32,7 @@ describe('directory', function () {
     const result = directory('mfc power box')
     should(result).be.eql({
       data: { brand: 'MFC', type: 'Power Box' },
-      output: '  box'
+      output: ' '
     })
   })
 })

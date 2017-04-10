@@ -26,7 +26,7 @@ describe('directory » create', function () {
     it('prints name under detection', function () {
       const { data, output } = type('power box')
       should(data).be.equal('Power Box')
-      should(output).be.equal(' box')
+      should(output).be.equal('')
     })
 
     it('undefined under non detection', function () {
