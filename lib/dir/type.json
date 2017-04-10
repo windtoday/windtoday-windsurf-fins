@@ -2,31 +2,31 @@
   {
     "name": "Deep Tuttle Box",
     "regex": [
-      "deep(?:tuttle(?:box)?| tuttle(?: box)?)"
+      "deep(?:.?tuttle(?:.?box)?)"
     ]
   },
   {
     "name": "Power Box",
     "regex": [
-      "power(?:box)?"
+      "power(?:.?box)?"
     ]
   },
   {
     "name": "Trim Box",
     "regex": [
-      "trim(?:box)?"
+      "trim(?:.?box)?"
     ]
   },
   {
     "name": "Tuttle Box",
     "regex": [
-      "tuttle(?:box)?"
+      "tuttle(?:.?box)?"
     ]
   },
   {
     "name": "US Box",
     "regex": [
-      "us(?:box)?"
+      "us(?:.?box)?"
     ]
   }
 ]
