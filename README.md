@@ -27,6 +27,13 @@ Perform a brand search inside the directory based on the query.
 
 #### opts
 
+#### findType
+
+Type: `Boolean`<br>
+Default: `true`
+
+Determinate if perform a search on type as well.
+
 #### strmatchOpts
 
 Type: `Object`<br>
