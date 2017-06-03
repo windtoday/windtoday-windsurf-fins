@@ -16,6 +16,23 @@
 $ npm install windtoday-windsurf-fins --save
 ```
 
+### find(query, [opts])
+
+#### query
+
+*Required*<br>
+Type: `String`
+
+Perform a brand search inside the directory based on the query.
+
+#### opts
+
+#### strmatchOpts
+
+Type: `Object`<br>
+
+Setup string matcher options, based on [str-match](https://github.com/Kikobeats/str-match).
+
 ## License
 
 MIT © [Kiko Beats](https://github.com/Kikobeats)

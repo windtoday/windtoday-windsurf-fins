@@ -1,11 +1,15 @@
 'use strict'
 
-const createDirectory = require('../lib/create-directory')
+const strmatch = require('str-match')()
 const should = require('should')
+
+const createDirectory = require('../lib/create-directory')
+const brandDirectory = require('../lib/dir/brand.json')
+const typeDirectory = require('../lib/dir/type.json')
 
 describe('directory » create', function () {
   describe('brand', function () {
-    const brand = createDirectory(require('../lib/dir/brand.json'))
+    const brand = createDirectory(brandDirectory, strmatch)
 
     it('prints name under detection', function () {
       const { data, output } = brand('mfc')
@@ -21,7 +25,7 @@ describe('directory » create', function () {
   })
 
   describe('type', function () {
-    const type = createDirectory(require('../lib/dir/type.json'))
+    const type = createDirectory(typeDirectory, strmatch)
 
     it('prints name under detection', function () {
       const { data, output } = type('power box')

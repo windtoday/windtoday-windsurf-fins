@@ -1,14 +1,19 @@
 'use strict'
 
-const createDirectory = require('./lib/create-directory')
+const createStrmatch = require('str-match')
 const reduce = require('lodash.reduce')
 const map = require('lodash.mapvalues')
 
-const DIRECTORIES = map(require('req-all')('./lib/dir'), createDirectory)
+const createDirectory = require('./lib/create-directory')
+const dirs = require('req-all')('./lib/dir')
 
-function directory (str, opts) {
-  return reduce(DIRECTORIES, function (acc, dir, name) {
-    const { data, output } = dir(acc.output, opts)
+function directory (str, opts = {}) {
+  const {strmatchOpts} = opts
+  const strmatch = createStrmatch(strmatchOpts)
+  const directories = map(dirs, dir => createDirectory(dir, strmatch))
+
+  return reduce(directories, function (acc, directory, name) {
+    const { data, output } = directory(acc.output)
 
     if (data) {
       acc.data[name] = data
