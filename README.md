@@ -1,7 +1,5 @@
 # windtoday-windsurf-fins
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/windtoday/windtoday-windsurf-fins.svg)](https://greenkeeper.io/)
-
 ![Last version](https://img.shields.io/github/tag/windtoday/windtoday-windsurf-fins.svg?style=flat-square)
 [![Build Status](https://img.shields.io/travis/windtoday/windtoday-windsurf-fins/master.svg?style=flat-square)](https://travis-ci.org/windtoday/windtoday-windsurf-fins)
 [![Coverage Status](https://img.shields.io/coveralls/windtoday/windtoday-windsurf-fins.svg?style=flat-square)](https://coveralls.io/github/windtoday/windtoday-windsurf-fins)
