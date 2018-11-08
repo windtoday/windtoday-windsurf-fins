@@ -6,7 +6,7 @@ const map = require('lodash.mapvalues')
 const omit = require('lodash.omit')
 
 const createDirectory = require('./lib/create-directory')
-const dirs = require('req-all')('./lib/dir')
+const dirs = require('import-modules')('./lib/dir')
 
 const DEFAULT_OPTS = {
   findType: true

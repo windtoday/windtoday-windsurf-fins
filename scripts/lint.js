@@ -1,6 +1,6 @@
 'use strict'
 
-var directories = require('req-all')('../lib/dir')
+var directories = require('import-modules')('../lib/dir')
 var isEqual = require('json-is-equal')
 var format = require('util').format
 var lodash = require('lodash')
