@@ -29,7 +29,7 @@
     "lodash.omit": "~4.5.0",
     "lodash.reduce": "~4.6.0",
     "regex-word-boundary": "~1.0.1",
-    "req-all": "~1.0.0",
+    "req-all": "~2.0.0",
     "str-match": "~2.1.1"
   },
   "devDependencies": {
